@@ -67,29 +67,38 @@ body {
 
 header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   min-height: 100px;
   background-color:#033048;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo{
   color: white;
+  flex-grow: 2;
+
 }
 
 .logo h1{
-  font-weight: 600;
-  font-size: 24px;
+  font-weight: 900;
+  font-size: 40px;
 }
 
 .navtop{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 1;
 
 }
 
 .navtop a{
   color: #f9e42e;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .content{
@@ -97,6 +106,15 @@ header {
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.main-content h1{
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
+  display: flex;
+  flex-direction: column;
+
 }
 
 footer {
