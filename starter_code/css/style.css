@@ -98,7 +98,7 @@ header {
 .navtop a{
   color: #f9e42e;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .content{
@@ -109,7 +109,6 @@ header {
 }
 
 .main-content{
-  height: 300px;
   display: flex;
   flex-direction: column;
 }
@@ -122,13 +121,24 @@ header {
   flex-direction: column;
 }
 
+.article1{
+  display: flex;
+  flex-direction: column;
+}
+
+.article2{
+  display: flex;
+  flex-direction: column;
+}
+
 .main-content a{
   font-weight: 600;
   font-size: 24px;
   color: #033048;
+  justify-content: flex-end;
 }
 .sidebar{
-  min-width: 20%;
+  min-width: 30%;
   display: flex;
   flex-direction: column;
 }
