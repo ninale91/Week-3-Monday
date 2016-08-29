@@ -81,6 +81,17 @@ header {
   font-weight: 600;
   font-size: 24px;
 }
+
+.navtop{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.navtop a{
+  color: #f9e42e;
+}
+
 .content{
   width: 100%;
   height: 100%;
