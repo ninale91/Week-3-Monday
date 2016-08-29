@@ -90,7 +90,7 @@ header {
 .navtop{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-grow: 1;
 
 }
@@ -105,10 +105,10 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
+  background-color: #f0efef;
 }
 
 .main-content{
-  width: 700px;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -120,15 +120,17 @@ header {
   color: #033048;
   display: flex;
   flex-direction: column;
-
 }
 
+.main-content a{
+  font-weight: 600;
+  font-size: 24px;
+  color: #033048;
+}
 .sidebar{
-  width: 240px;
-  height: 300px;
+  min-width: 20%;
   display: flex;
   flex-direction: column;
-
 }
 
 .categories{
@@ -136,7 +138,7 @@ header {
   flex-direction: column;
 }
 
-.categories h2{
+.sidebar h2{
   font-size: 32px;
   font-weight: 900;
   color: #033048
@@ -145,6 +147,17 @@ header {
 .categories ul{
   font-size: 24px;
   font-weight: 200;
+}
+
+.about p{
+  font-size: 22px;
+  font-weight: 100;
+  color: #606161;
+}
+
+.ad-unit{
+  background-color: white;
+  height: 150px;
 }
 
 footer {
