@@ -167,13 +167,30 @@ header {
 
 .ad-unit{
   background-color: white;
-  height: 150px;
+  height: 300px;
 }
+
 
 footer {
-
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
+.sign-up{
+  background-color: #f9e42e;
+  height: 100px;
+}
+
+.final{
+  background-color: black;
+  height: 300px;
+}
+
+.final p{
+  font-size: 10px;
+  color: white;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
